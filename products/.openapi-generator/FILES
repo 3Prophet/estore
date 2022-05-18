@@ -1,0 +1,5 @@
+src/gen/java/ch/logvidmi/estore/products/RFC3339DateFormat.java
+src/gen/java/ch/logvidmi/estore/products/api/ApiUtil.java
+src/gen/java/ch/logvidmi/estore/products/api/ProductsApi.java
+src/gen/java/ch/logvidmi/estore/products/config/OpenAPIDocumentationConfig.java
+src/gen/java/ch/logvidmi/estore/products/model/Product.java

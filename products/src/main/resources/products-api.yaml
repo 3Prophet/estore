@@ -1,0 +1,29 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+  - url: http://localhost:8011/users-ws
+    description: Local server
+tags:
+  - name: "products-controller"
+    description: Controllers for CRUD operation with tenant clients and related entities.
+paths:
+  /products:
+    post:
+      summary: Create product
+      tags:
+        - products-controller
+      operationId: createProduct
+      responses:
+        "200":
+          description: OK
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: string
+          format: UUID
